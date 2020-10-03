@@ -18,7 +18,8 @@ SOURCES += \
         main.cpp \
     pizza.cpp \
     cheesepizza.cpp \
-    pizzastore.cpp
+    pizzastore.cpp \
+    carbonara.cpp
 
 # Default rules for deployment.
 qnx: target.path = /tmp/$${TARGET}/bin
@@ -28,4 +29,5 @@ else: unix:!android: target.path = /opt/$${TARGET}/bin
 HEADERS += \
     pizza.h \
     cheesepizza.h \
-    pizzastore.h
+    pizzastore.h \
+    carbonara.h
